@@ -20,7 +20,12 @@ public class Examples {
 	}
 	@Test
 	public void sampleGet2() {
-		System.out.println(get("https://reqres.in/api/users?page=2"));
+		baseURI = "https://reqres.in/api";
+		given().
+			get("/users?page=2").
+		then().
+			statusCode(200);
+		System.out.println(get("/users?page=3").getBody().asString());
 	}
 	
 

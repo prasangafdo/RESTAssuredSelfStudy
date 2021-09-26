@@ -6,6 +6,7 @@
       <class name="com.api.test.Examples">
         <methods>
           <include name="sampleGet"/>
+          <include name="sampleGet2"/>
         </methods>
       </class> <!-- com.api.test.Examples -->
     </classes>
