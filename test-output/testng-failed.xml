@@ -5,8 +5,7 @@
     <classes>
       <class name="com.api.test.Examples">
         <methods>
-          <include name="sampleGet"/>
-          <include name="sampleGet2"/>
+          <include name="sampleGet3"/>
         </methods>
       </class> <!-- com.api.test.Examples -->
     </classes>

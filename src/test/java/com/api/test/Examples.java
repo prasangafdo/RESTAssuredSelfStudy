@@ -18,6 +18,7 @@ public class Examples {
 		System.out.println(response.asPrettyString());
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
+	
 	@Test
 	public void sampleGet2() {
 		baseURI = "https://reqres.in/api";
@@ -28,6 +29,14 @@ public class Examples {
 		System.out.println(get("/users?page=3").getBody().asString());
 	}
 	
+	@Test
+	public void sampleGet3() {
+		baseURI = "https://reqres.in/api";
+		given().
+			get("/users?page=2").
+		then().
+			body("data[0].first_name", equalTo("Michael"));
+	}
 
 }
 	
