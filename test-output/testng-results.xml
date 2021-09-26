@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-20T17:43:13 IST" name="Default suite" finished-at="2021-09-20T17:43:15 IST" duration-ms="2074">
+  <suite started-at="2021-09-26T11:38:07 IST" name="Default suite" finished-at="2021-09-26T11:38:09 IST" duration-ms="2096">
     <groups>
     </groups>
-    <test started-at="2021-09-20T17:43:13 IST" name="Default test" finished-at="2021-09-20T17:43:15 IST" duration-ms="2074">
+    <test started-at="2021-09-26T11:38:07 IST" name="Default test" finished-at="2021-09-26T11:38:09 IST" duration-ms="2096">
       <class name="com.api.test.Examples">
-        <test-method signature="sampleGet()[pri:0, instance:com.api.test.Examples@2f112965]" started-at="2021-09-20T17:43:13 IST" name="sampleGet" finished-at="2021-09-20T17:43:15 IST" duration-ms="2038" status="PASS">
+        <test-method signature="sampleGet()[pri:0, instance:com.api.test.Examples@1a04f701]" started-at="2021-09-26T11:38:07 IST" name="sampleGet" finished-at="2021-09-26T11:38:09 IST" duration-ms="1799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleGet -->
+        <test-method signature="sampleGet2()[pri:0, instance:com.api.test.Examples@1a04f701]" started-at="2021-09-26T11:38:09 IST" name="sampleGet2" finished-at="2021-09-26T11:38:09 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleGet2 -->
       </class> <!-- com.api.test.Examples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
