@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-26T16:04:45 IST" name="Default suite" finished-at="2021-09-26T16:04:48 IST" duration-ms="2989">
+  <suite started-at="2021-10-02T18:57:08 IST" name="Default suite" finished-at="2021-10-02T18:57:11 IST" duration-ms="2869">
     <groups>
     </groups>
-    <test started-at="2021-09-26T16:04:45 IST" name="Default test" finished-at="2021-09-26T16:04:48 IST" duration-ms="2989">
-      <class name="com.api.test.Examples">
-        <test-method signature="sampleGet()[pri:0, instance:com.api.test.Examples@4e91d63f]" started-at="2021-09-26T16:04:45 IST" name="sampleGet" finished-at="2021-09-26T16:04:47 IST" duration-ms="1895" status="PASS">
+    <test started-at="2021-10-02T18:57:08 IST" name="Default test" finished-at="2021-10-02T18:57:11 IST" duration-ms="2869">
+      <class name="com.api.test.GETExamples">
+        <test-method signature="sampleGet()[pri:0, instance:com.api.test.GETExamples@4e91d63f]" started-at="2021-10-02T18:57:08 IST" name="sampleGet" finished-at="2021-10-02T18:57:10 IST" duration-ms="1581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleGet -->
-        <test-method signature="sampleGet2()[pri:0, instance:com.api.test.Examples@4e91d63f]" started-at="2021-09-26T16:04:47 IST" name="sampleGet2" finished-at="2021-09-26T16:04:48 IST" duration-ms="397" status="PASS">
+        <test-method signature="sampleGetInGherkins()[pri:0, instance:com.api.test.GETExamples@4e91d63f]" started-at="2021-10-02T18:57:10 IST" name="sampleGetInGherkins" finished-at="2021-10-02T18:57:11 IST" duration-ms="557" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleGet2 -->
-        <test-method signature="sampleGet3()[pri:0, instance:com.api.test.Examples@4e91d63f]" started-at="2021-09-26T16:04:48 IST" name="sampleGet3" finished-at="2021-09-26T16:04:48 IST" duration-ms="664" status="PASS">
+        </test-method> <!-- sampleGetInGherkins -->
+        <test-method signature="sampleGetWithRestAssuredAssertion()[pri:0, instance:com.api.test.GETExamples@4e91d63f]" started-at="2021-10-02T18:57:11 IST" name="sampleGetWithRestAssuredAssertion" finished-at="2021-10-02T18:57:11 IST" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleGet3 -->
-      </class> <!-- com.api.test.Examples -->
+        </test-method> <!-- sampleGetWithRestAssuredAssertion -->
+      </class> <!-- com.api.test.GETExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
