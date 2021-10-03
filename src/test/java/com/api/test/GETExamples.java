@@ -37,7 +37,9 @@ public class GETExamples {
 		given().
 			get("/users?page=2").
 		then().
-			body("data[0].first_name", equalTo("Michael")).
+			body("data[0].first_name", equalTo("Michael")). //Expecting exact value
+			body("data.first_name", hasItems("Lindsay", "Tobias")). //Expecting these values contains in the response
+			statusCode(200).
 			log().all();//This will print all the data on the response
 			
 		
