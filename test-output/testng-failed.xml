@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.test.GETExamples">
+      <class name="com.api.test.POSTExamples">
         <methods>
-          <include name="sampleGetWithRestAssuredAssertion"/>
+          <include name="SamplePostUsingHashMap"/>
         </methods>
-      </class> <!-- com.api.test.GETExamples -->
+      </class> <!-- com.api.test.POSTExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-03T11:21:37 IST" name="Default suite" finished-at="2021-10-03T11:21:38 IST" duration-ms="38">
+  <suite started-at="2021-10-03T12:38:26 IST" name="Default suite" finished-at="2021-10-03T12:38:29 IST" duration-ms="2686">
     <groups>
     </groups>
-    <test started-at="2021-10-03T11:21:37 IST" name="Default test" finished-at="2021-10-03T11:21:38 IST" duration-ms="38">
+    <test started-at="2021-10-03T12:38:26 IST" name="Default test" finished-at="2021-10-03T12:38:29 IST" duration-ms="2686">
       <class name="com.api.test.POSTExamples">
-        <test-method signature="SamplePostUsingHashMap()[pri:0, instance:com.api.test.POSTExamples@2f112965]" started-at="2021-10-03T11:21:37 IST" name="SamplePostUsingHashMap" finished-at="2021-10-03T11:21:38 IST" duration-ms="6" status="PASS">
+        <test-method signature="SamplePostUsingHashMap()[pri:0, instance:com.api.test.POSTExamples@163e4e87]" started-at="2021-10-03T12:38:27 IST" name="SamplePostUsingHashMap" finished-at="2021-10-03T12:38:29 IST" duration-ms="2657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SamplePostUsingHashMap -->
