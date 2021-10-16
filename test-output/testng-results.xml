@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-03T12:38:26 IST" name="Default suite" finished-at="2021-10-03T12:38:29 IST" duration-ms="2686">
+  <suite started-at="2021-10-16T19:43:47 IST" name="Default suite" finished-at="2021-10-16T19:43:51 IST" duration-ms="4065">
     <groups>
     </groups>
-    <test started-at="2021-10-03T12:38:26 IST" name="Default test" finished-at="2021-10-03T12:38:29 IST" duration-ms="2686">
-      <class name="com.api.test.POSTExamples">
-        <test-method signature="SamplePostUsingHashMap()[pri:0, instance:com.api.test.POSTExamples@163e4e87]" started-at="2021-10-03T12:38:27 IST" name="SamplePostUsingHashMap" finished-at="2021-10-03T12:38:29 IST" duration-ms="2657" status="PASS">
+    <test started-at="2021-10-16T19:43:47 IST" name="Default test" finished-at="2021-10-16T19:43:51 IST" duration-ms="4065">
+      <class name="com.api.demo.GETExamples">
+        <test-method signature="getAllPosts()[pri:0, instance:com.api.demo.GETExamples@163e4e87]" started-at="2021-10-16T19:43:47 IST" name="getAllPosts" finished-at="2021-10-16T19:43:51 IST" duration-ms="3962" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SamplePostUsingHashMap -->
-      </class> <!-- com.api.test.POSTExamples -->
+        </test-method> <!-- getAllPosts -->
+      </class> <!-- com.api.demo.GETExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
