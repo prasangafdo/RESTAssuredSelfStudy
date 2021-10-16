@@ -5,7 +5,7 @@
     <classes>
       <class name="com.api.demo.GETExamples">
         <methods>
-          <include name="getAllPosts"/>
+          <include name="getPostsByTitle"/>
         </methods>
       </class> <!-- com.api.demo.GETExamples -->
     </classes>
