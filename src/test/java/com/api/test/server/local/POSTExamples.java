@@ -1,4 +1,4 @@
-package com.api.demo;
+package com.api.test.server.local;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
