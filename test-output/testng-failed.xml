@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.demo.GETExamples">
+      <class name="com.api.test.server.local.PATCHExamples">
         <methods>
-          <include name="getPostsByTitle"/>
+          <include name="UpdatePostTitle"/>
         </methods>
-      </class> <!-- com.api.demo.GETExamples -->
+      </class> <!-- com.api.test.server.local.PATCHExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
