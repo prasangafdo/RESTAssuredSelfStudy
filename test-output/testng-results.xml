@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-19T19:33:02 IST" name="Default suite" finished-at="2021-10-19T19:33:03 IST" duration-ms="1345">
+  <suite started-at="2021-10-20T12:19:35 IST" name="Default suite" finished-at="2021-10-20T12:19:37 IST" duration-ms="1406">
     <groups>
     </groups>
-    <test started-at="2021-10-19T19:33:02 IST" name="Default test" finished-at="2021-10-19T19:33:03 IST" duration-ms="1345">
+    <test started-at="2021-10-20T12:19:35 IST" name="Default test" finished-at="2021-10-20T12:19:37 IST" duration-ms="1406">
       <class name="com.api.test.server.local.PATCHExamples">
-        <test-method signature="UpdatePostTitle()[pri:0, instance:com.api.test.server.local.PATCHExamples@163e4e87]" started-at="2021-10-19T19:33:02 IST" name="UpdatePostTitle" finished-at="2021-10-19T19:33:03 IST" duration-ms="1307" status="PASS">
+        <test-method signature="updatePostAuthor()[pri:0, instance:com.api.test.server.local.PATCHExamples@56de5251]" started-at="2021-10-20T12:19:35 IST" name="updatePostAuthor" finished-at="2021-10-20T12:19:37 IST" duration-ms="1376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UpdatePostTitle -->
+        </test-method> <!-- updatePostAuthor -->
       </class> <!-- com.api.test.server.local.PATCHExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

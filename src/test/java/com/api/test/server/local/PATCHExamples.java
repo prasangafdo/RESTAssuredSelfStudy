@@ -13,7 +13,7 @@ import io.restassured.http.ContentType;
 public class PATCHExamples {
 	
 	@SuppressWarnings("unchecked")
-	@Test
+	//@Test
 	public void UpdatePostTitle() {
 	baseURI = "http://localhost:3000/";
 	
@@ -32,6 +32,27 @@ public class PATCHExamples {
 	then().
 		statusCode(200).log().body();
 	
+	}
+	
+	
+	@Test @SuppressWarnings("unchecked")
+	public void updatePostAuthor() {
+		baseURI = "http://localhost:3000/";
+		
+		//Change the post ID and value here
+		int postID = 6;
+		String value = "Updated author name here";
+		
+		JSONObject jsonObject = new JSONObject();
+		jsonObject.put("author", value);
+		
+		given().
+			contentType(ContentType.JSON).accept(ContentType.JSON).body(jsonObject.toJSONString()).
+		when().
+			patch("posts/".concat(String.valueOf(postID))).
+		then().
+			statusCode(200).log().body();
+		
 	}
 	
 
