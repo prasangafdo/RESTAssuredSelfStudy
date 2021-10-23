@@ -1,4 +1,4 @@
-package com.api.demo;
+package com.api.test.server.local;
 
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
