@@ -56,7 +56,7 @@ public class POSTExamples {
 			post("/posts").
 		then().
 			statusCode(201).and().log().all();
-			
+		
 		
 	}
 	

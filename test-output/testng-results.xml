@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-24T18:35:51 IST" name="Default suite" finished-at="2021-10-24T18:35:53 IST" duration-ms="1272">
+  <suite started-at="2022-02-16T15:20:31 IST" name="Default suite" finished-at="2022-02-16T15:20:33 IST" duration-ms="2783">
     <groups>
     </groups>
-    <test started-at="2021-10-24T18:35:51 IST" name="Default test" finished-at="2021-10-24T18:35:53 IST" duration-ms="1272">
+    <test started-at="2022-02-16T15:20:31 IST" name="Default test" finished-at="2022-02-16T15:20:33 IST" duration-ms="2783">
       <class name="com.api.test.server.local.GETExamples">
-        <test-method signature="getAllPosts()[pri:0, instance:com.api.test.server.local.GETExamples@419c5f1a]" started-at="2021-10-24T18:35:51 IST" name="getAllPosts" finished-at="2021-10-24T18:35:53 IST" duration-ms="1241" status="PASS">
+        <test-method signature="testVerifyTestAuthorPresent()[pri:0, instance:com.api.test.server.local.GETExamples@12b0404f]" started-at="2022-02-16T15:20:31 IST" name="testVerifyTestAuthorPresent" finished-at="2022-02-16T15:20:33 IST" duration-ms="2731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAllPosts -->
+        </test-method> <!-- testVerifyTestAuthorPresent -->
       </class> <!-- com.api.test.server.local.GETExamples -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
