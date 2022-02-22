@@ -6,6 +6,9 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.annotations.Test;
 
+import io.restassured.response.Response;
+
+
 public class GETExamples {
 	/*
 	 * I've hosted a fake JSON server in localhost and pointing my get request to that server in this class
@@ -23,11 +26,26 @@ public class GETExamples {
 		
 	}
 	
-	@Test
+	//@Test
 	public void getPostsByTitle() {
 		String PostTitle = "Facebook post uploaded by Supun";
 	this.extractPostsByTitle(PostTitle);
 	}
+	
+	@Test
+	public void testVerifyTestAuthorPresent() {
+		
+		baseURI = "http://localhost:3000/";
+		Response response = given().get("/posts").then().statusCode(200).extract().response();
+
+		
+		String result = response.jsonPath().getString("findAll { it.id == 12 }");
+		System.out.println(result);
+//		and().body("$..title", hasItems("json-server"));
+//		
+		
+	}
+	
 	
 
 }
